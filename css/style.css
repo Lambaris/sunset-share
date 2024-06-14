@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #2F1047;
+}
+
+.paralogramo{
+    padding: 0;
+    width: 30vw;
+    min-height: 10vh;
+    transform: skew(-20deg);
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background-image: linear-gradient(to right,#FF5757,#8C52FF);
+}
+
+.unskew{
+    transform: skew(20deg);
+}
+
+.w-100{
+    width: 100%;
+}
+.w-80{
+    width: 80%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-60{
+    width: 60%;
+}
+.w-10{
+    width: 10%;
+}
+
+.logo{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    margin-left: 2%;
+}
+
+.margin-no{
+    margin: 0;
+}
