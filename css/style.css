@@ -113,3 +113,9 @@ body {
 .sunset {
     top: 80px
 }
+.chao{
+    position: fixed;
+    bottom: -3.5vh;
+    width: 100vw;
+
+}
