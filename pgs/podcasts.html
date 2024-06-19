@@ -17,48 +17,48 @@
 
     <nav class="navbar navbar-expand-lg no-padding" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand d-flex justify-content-start align-items-center m-0 p-0 ps-3" href="#">
-            <figure class="w-30 no-margin">
-              <img src="../imgs/logo_logo.png" class="img-fluid" alt="">
-            </figure>
-            <p class="ps-3 text-white no-margin">Sunset Share</p>
-          </a>
-    
-          <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-white"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-theme="dark">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <span class="text-white pt-2 d-none d-lg-block">-</span>
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="song.html">Músicas</a>
-              </li>
-              <span class="text-white pt-2 d-none d-lg-block">-</span>
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="podcasts.html">Podcasts</a>
-              </li>
-            </ul>
-            <div class="nav-item no-margin no-padding d-block d-lg-none pt-2 pb-2">
-              <a href="login.html">
-                <button class="btn btn-dark rounded">Login</button>
-              </a>
+            <a class="navbar-brand d-flex justify-content-start align-items-center m-0 p-0 ps-3" href="#">
+                <figure class="w-30 no-margin">
+                    <img src="../imgs/logo_logo.png" class="img-fluid" alt="">
+                </figure>
+                <p class="ps-3 text-white no-margin">Sunset Share</p>
+            </a>
+
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-theme="dark">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <span class="text-white pt-2 d-none d-lg-block">-</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="song.html">Músicas</a>
+                    </li>
+                    <span class="text-white pt-2 d-none d-lg-block">-</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="podcasts.html">Podcasts</a>
+                    </li>
+                </ul>
+                <div class="nav-item no-margin no-padding d-block d-lg-none pt-2 pb-2">
+                    <a href="login.html">
+                        <button class="btn btn-dark rounded">Login</button>
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="d-none d-lg-flex paralogramo gradient d-flex justify-content-center align-items-center">
-            <div class="unskew">
-              <a href="login.html">
-                <button class="btn btn-dark">Login</button>
-              </a>
+            <div class="d-none d-lg-flex paralogramo gradient d-flex justify-content-center align-items-center">
+                <div class="unskew">
+                    <a href="login.html">
+                        <button class="btn btn-dark">Login</button>
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-    
-      </nav>
+
+    </nav>
 
     <header class="gradient-header">
         <h2 class="text-white display-3 fw-bold pt-5 pb-3 ps-5 no-margin">Podcasts</h2>
@@ -346,7 +346,55 @@
                 </div>
             </div>
         </div>
+        <div class="w-100 d-flex justify-content-center color py-4">
+            <div>
+                <div class="w-100 d-flex justify-content-center pb-3">
+                    <button type="button" class="btn btn-primary" id="liveAlertBtn">
+                        <i class="bi bi-arrow-down-square-fill text-center text-light fs-2"></i>
+                    </button>
+                </div>
+                <div id="liveAlertPlaceholder"></div>
+            </div>
+
+
+        </div>
     </main>
+
+    <footer class="py-5 text-white footer-bg pb-5">
+        <div class="container pb-4">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <img src="../imgs/logo_logo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h5>Sunset Share</h5>
+                    <p>
+                    <h6>Encontre Novos Sons</h6>
+                    Mergulhe em um mundo de música com nosso vasto catálogo. Explore diferentes gêneros, descubra
+                    novos artistas e ouça as faixas mais populares. Seja você fã de rock, pop, jazz ou música
+                    clássica, temos algo para todos os gostos.
+                    </p>
+                </div>
+                <div class="col-md-4 alinhar">
+                    <h5>Redes Sociais</h5>
+                    <p>
+                    <div>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube ps-2 pe-2"
+                                type="button" data-toggle="tooltip" data-placement="top" title="Youtube"></i></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp pe-2" type="button"
+                                data-toggle="tooltip" data-placement="top" title="Whatsapp"></i></a>
+                        <a href="https://x.com/home" target="_blank"><i class="bi bi-twitter-x pe-2" type="button"
+                                data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+                        <a href="../pgs/about.html" target="_blank"> <i class="bi bi-arrow-up-right-square pe-2"
+                                type="button" data-toggle="tooltip" data-placement="top" title="Sobre Nós"></i></a>
+
+                    </div>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
         data-bs-theme="dark">
@@ -358,8 +406,8 @@
 
             <div>
                 <figure class="d-flex justify-content-center">
-                    <img src="../imgs/podcast_thumbnails/ep0.png"
-                        class="card-img-top w-80 mt-3 center podcast" alt="...">
+                    <img src="../imgs/podcast_thumbnails/ep0.png" class="card-img-top w-80 mt-3 center podcast"
+                        alt="...">
 
                 </figure>
                 <div class="w-100 d-flex justify-content-center">
@@ -367,25 +415,26 @@
                 </div>
                 <section class="chao pt-5 grey-ish row">
                     <div class="col-1 fs-1 pddingNeg">
-                      <span>
-                        <ul>
-                        </ul>
-                      </span>
+                        <span>
+                            <ul>
+                            </ul>
+                        </span>
                     </div>
                     <div class="darkinosa col-10 d-none d-md-flex bg-white justify-content-center rounded pt-2 ">
-                      <div class="">
-                        <ul class="d-flex list-unstyled fs-1">
-                          <i class="bi bi-arrow-left-circle "></i>
-                          <a href="" id="icon1" class="no-decoration"><i class="bi bi-play-circle c1 ps-4 pe-4"></i></a>
-                          <a href="" id="icon2" class="no-decoration" style="display: none;"><i
-                              class="bi bi-pause-circle c2 ps-4 pe-4"></i></a>
-                          <i class="bi bi-arrow-right-circle"></i>
-                        </ul>
-                      </div>
+                        <div class="">
+                            <ul class="d-flex list-unstyled fs-1">
+                                <i class="bi bi-arrow-left-circle "></i>
+                                <a href="" id="icon1" class="no-decoration"><i
+                                        class="bi bi-play-circle c1 ps-4 pe-4"></i></a>
+                                <a href="" id="icon2" class="no-decoration" style="display: none;"><i
+                                        class="bi bi-pause-circle c2 ps-4 pe-4"></i></a>
+                                <i class="bi bi-arrow-right-circle"></i>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-4 fs-1 grey-ish">
                     </div>
-                  </section>
+                </section>
             </div>
             <div class="loading-container d-flex align-items-center">
                 <div class="spinner-border text-light">
@@ -399,4 +448,25 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/app.js"></script>
+    <script>
+        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+        const appendAlert = (message, type) => {
+            const wrapper = document.createElement('div')
+            wrapper.innerHTML = [
+                `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                `   <div>${message}</div>`,
+                '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                '</div>'
+            ].join('')
+
+            alertPlaceholder.append(wrapper)
+        }
+
+        const alertTrigger = document.getElementById('liveAlertBtn')
+        if (alertTrigger) {
+            alertTrigger.addEventListener('click', () => {
+                appendAlert('Ops! não foi possível carregar o conteúdo', 'danger')
+                alertTrigger.classList.add("d-none")
+            })
+        }</script>
 </body>
