@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg p-0" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand d-flex justify-content-start align-items-center m-0 p-0 ps-3" href="#">
@@ -58,9 +57,9 @@
         </div>
 
     </nav>
-
     <header>
-        <div id="carouselExampleCaptions" class="carousel slide c-height">
+        <div class="gradient-header c-height"><h2 class="text-white display-3 fw-bold pt-3 pb-3 ps-5 no-margin">Conheça os artistas</h2></div>
+        <div id="carouselExampleCaptions" class="carousel slide ">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -73,13 +72,12 @@
                 <div class="d-flex flex-column justify-content-center align-items-center position-absolute w-100 h-100">
                     <h1 class="header-text display-3 text-white">
                         <figure class="d-flex justify-content-center">
-                            <img src="imgs/text_logo.png" alt="" class="img-fluid w-80">
+                            <img src="../imgs/text_logo.png" alt="" class="img-fluid w-80">
                         </figure>
                     </h1>
                 </div>
                 <div class="carousel-item active">
                     <div class="car-4 d-block w-100"></div>
-                    <!-- <img src="imgs/1.png" class="d-block w-100" alt="..."> -->
                 </div>
                 <div class="carousel-item">
                     <div class="car-5 d-block w-100"></div>
@@ -88,7 +86,6 @@
                     <div class="car-6 d-block w-100"></div>
                 </div>
             </div>
-
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -102,75 +99,239 @@
         </div>
     </header>
     <main>
-        <div class="background py-5 m-0">
-            <div class="container">
-                <div class="grey rounded">
-                    <div class="row p-4">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card mx-auto" style="width: 15rem;">
-                                <img src="../imgs/song-cards/CBcard1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="d-flex justify-content-center fs-4 z-height">Conheça: Tom Jobim.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card mx-auto" style="width: 15rem;">
-                                <img src="../imgs/song-cards/CBcard2.jpg" class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="d-flex justify-content-center fs-4 z-height">Conheça: Charlie Brown
-                                        Jr.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 pt-2">
-                            <div class="card mx-auto" style="width: 15rem;">
-                                <img src="../imgs/song-cards/CBcard3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="d-flex justify-content-center fs-4 z-height">Conheça: Rita Lee</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 pt-2">
-                            <div class="card mx-auto" style="width: 15rem;">
-                                <img src="../imgs/song-cards/CBcard4.jpg" class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="d-flex justify-content-center fs-4 z-height">Conheça: Cazuza</p>
-                                </div>
-                            </div>
-                        </div>
+        <section>
 
-
-                        <div class="col-md-6 col-lg-4 pt-2">
-                            <div class="card mx-auto z-height" style="width: 15rem;">
-                                <img src="../imgs/song-cards/CBcard5.jpg" class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="d-flex justify-content-center fs-4 z-height">Conheça: Tim Maia</p>
+            <div class="background py-5 pt-3 m-0">
+                <div class="container">
+                    <div class="podcast-gradient rounded">
+                        <div class="row p-4">
+                            <div class="col-md-6 col-lg-4 pt-2" data-aos="zoom-in-up">
+                                <div class="card mx-auto" style="width: 15rem;">
+                                    <img src="../imgs/song-cards/CBcard1.jpg" class="card-img-top w-50 mx-auto"
+                                        alt="...">
+                                    <div class="card-body ">
+                                        <p class="d-flex justify-content-center fs-4 z-height">Conheça: Tom Jobim.</p>
+                                        <div>
+                                            <li class="list-unstyled"><i class="bi bi-arrow-up-right-square"
+                                                    type="button" data-toggle="tooltip" data-placement="top"
+                                                    title="Sobre Nós"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 pt-2" data-aos="zoom-in-up">
+                                <div class="card mx-auto" style="width: 15rem;">
+                                    <img src="../imgs/song-cards/CBcard2.jpg" class="card-img-top w-50 mx-auto"
+                                        alt="...">
+                                    <div class="card-body ">
+                                        <p class="d-flex fs-4 z-height ">Conheça: Charlie Brown
+                                            Jr.
+                                        </p>
+                                        <div>
+                                            <li class="list-unstyled"><i class="bi bi-arrow-up-right-square"
+                                                    type="button" data-toggle="tooltip" data-placement="top"
+                                                    title="Sobre Nós"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 pt-2" data-aos="zoom-in-up">
+                                <div class="card mx-auto" style="width: 15rem;">
+                                    <img src="../imgs/song-cards/CBcard3.jpg" class="card-img-top w-50 mx-auto"
+                                        alt="...">
+                                    <div class="card-body ">
+                                        <p class="d-flex justify-content-center fs-4 z-height">Conheça: Rita Lee</p>
+                                        <div>
+                                            <li class="list-unstyled"><i class="bi bi-arrow-up-right-square"
+                                                    type="button" data-toggle="tooltip" data-placement="top"
+                                                    title="Sobre Nós"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 pt-2" data-aos="zoom-in-up">
+                                <div class="card mx-auto" style="width: 15rem;">
+                                    <img src="../imgs/song-cards/CBcard4.jpg" class="card-img-top w-50 mx-auto"
+                                        alt="...">
+                                    <div class="card-body ">
+                                        <p class="d-flex justify-content-center fs-4 z-height">Conheça: Cazuza</p>
+                                        <div>
+                                            <li class="list-unstyled"><i class="bi bi-arrow-up-right-square"
+                                                    type="button" data-toggle="tooltip" data-placement="top"
+                                                    title="Sobre Nós"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 pt-2" data-aos="zoom-in-up">
+                                <div class="card mx-auto z-height" style="width: 15rem;">
+                                    <img src="../imgs/song-cards/CBcard5.jpg" class="card-img-top w-50 mx-auto"
+                                        alt="...">
+                                    <div class="card-body ">
+                                        <p class="d-flex justify-content-center fs-4 z-height">Conheça: Tim Maia</p>
+                                        <div>
+                                            <li class="list-unstyled"><i class="bi bi-arrow-up-right-square"
+                                                    type="button" data-toggle="tooltip" data-placement="top"
+                                                    title="Sobre Nós"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 pt-2" data-aos="zoom-in-up">
+                                <div class="card mx-auto " style="width: 15rem;">
+                                    <img src="../imgs/song-cards/CBcard6.jpg " class="card-img-top w-50 mx-auto"
+                                        alt="...">
+                                    <div class="card-body ">
+                                        <p class="d-flex justify-content-center fs-4 z-height">Conheça: Elis Regina
+                                        </p>
+                                        <div>
+                                            <li class="list-unstyled"><i class="bi bi-arrow-up-right-square"
+                                                    type="button" data-toggle="tooltip" data-placement="top"
+                                                    title="Sobre Nós"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-mb-4 d-none d-md-block bg-dark rounded pt-2 divAccordions pb-3 mt-3"
+                                data-aos="fade-left">
+                                <h1>Descubra mais sobre</h1>
+                                <div class="accordion " id="accordionExample">
+                                    <div class="accordion-item bg-dark-subtle">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                Música Clássica
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                A música clássica abrange um vasto período de tempo, desde a música da
+                                                Idade Média até as composições contemporâneas. Caracterizada por sua
+                                                complexidade estrutural e variedade instrumental, a música clássica é
+                                                frequentemente associada a compositores como Johann Sebastian Bach,
+                                                Ludwig van Beethoven e Wolfgang Amadeus Mozart. Este gênero continua a
+                                                ser um pilar na educação musical e na apreciação artística.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-dark-subtle">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Hip-Hop
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Nascido nas ruas do Bronx, em Nova York, durante os anos 1970, o hip-hop
+                                                é muito mais que um gênero musical; é um movimento cultural. O gênero
+                                                inclui rapping (ritmo e poesia), DJing, breakdancing e graffiti. Com
+                                                letras que frequentemente abordam questões sociais, políticas e
+                                                pessoais, o hip-hop tem sido uma voz poderosa para comunidades
+                                                marginalizadas. Ícones do hip-hop incluem Tupac Shakur, The Notorious
+                                                B.I.G., e Kendrick Lamar.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-dark-subtle ">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Pop </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                O pop, abreviação de "popular", é um gênero que abrange uma ampla
+                                                variedade de estilos musicais, todos voltados para um apelo massivo. Com
+                                                melodias cativantes, letras simples e refrãos repetitivos, o pop é feito
+                                                para ser facilmente acessível e comercial. Artistas como Michael
+                                                Jackson, Madonna e Taylor Swift exemplificam o poder duradouro e a
+                                                adaptabilidade do pop.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-dark-subtle">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse1"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                Música Eletrônica
+                                            </button>
+                                        </h2>
+                                        <div id="collapse1" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                A música eletrônica utiliza equipamentos eletrônicos e digitais para
+                                                criar sons e ritmos que muitas vezes são difíceis de produzir com
+                                                instrumentos tradicionais. Surgida nos anos 1970 e 1980, a música
+                                                eletrônica ganhou popularidade em boates e raves. Subgêneros como
+                                                techno, house, dubstep e trance oferecem uma gama diversificada de
+                                                experiências sonoras. Artistas notáveis incluem Kraftwerk, Daft Punk e
+                                                Skrillex.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-dark-subtle">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse2"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Jazz
+                                            </button>
+                                        </h2>
+                                        <div id="collapse2" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                O jazz é um gênero musical complexo e altamente improvisacional que teve
+                                                origem nas comunidades afro-americanas de Nova Orleans no final do
+                                                século XIX e início do século XX. Com raízes no blues e no ragtime, o
+                                                jazz é conhecido por sua sofisticação harmônica, ritmos sincopados e
+                                                improvisação. Artistas lendários como Louis Armstrong, Miles Davis e
+                                                John Coltrane elevaram o jazz a novas alturas e continuam a inspirar
+                                                músicos de todo o mundo.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item bg-dark-subtle">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Reggae
+                                            </button>
+                                        </h2>
+                                        <div id="collapse3" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Originário da Jamaica nos anos 1960, o reggae é um gênero que combina
+                                                ritmos caribenhos com influências do jazz e do R&B. Conhecido por seu
+                                                ritmo relaxado e mensagens de paz e justiça social, o reggae foi
+                                                popularizado globalmente por Bob Marley. O gênero continua a ser uma
+                                                importante forma de expressão cultural para muitas comunidades.
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 pt-2">
-                            <div class="card mx-auto " style="width: 15rem;">
-                                <img src="../imgs/song-cards/CBcard6.jpg " class="card-img-top" alt="...">
-                                <div class="card-body ">
-                                    <p class="d-flex justify-content-center fs-4 z-height">Conheça: Elis Regina
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
             </div>
-
-        </div>
-        <div class="mb-4 d-none"><span>
-                <p></p>
-            </span></div>
+        </section>
     </main>
-    <footer class="py-5 text-white footer-bg pb-5">
+    <footer class="py-5 text-white footer-bg pb-2">
         <div class="container pb-4">
             <div class="row">
                 <div class="col-md-12 mb-4">
@@ -205,10 +366,12 @@
             </div>
         </div>
     </footer>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/app.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

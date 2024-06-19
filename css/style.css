@@ -164,9 +164,9 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
 }
 
 .chao {
-    position: fixed;
+    /* position: fixed; */
     bottom: -3.5vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .music {
@@ -197,19 +197,19 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
 }
 .car-4 {
     background-image: url(../imgs/carousel-img/disco.jpg);
-    min-height: 75vh;
+    min-height: 50vw;
     background-position: center;
     background-size: cover;
 }
 .car-5 {
     background-image: url(../imgs/carousel-img/moça-fone.jpg);
-    min-height: 75vh;
+    min-height: 50vw;
     background-position: top;
     background-size: cover;
 }
 .car-6 {
     background-image: url(../imgs/carousel-img/painel-som.jpg);
-    min-height: 75vh;
+    min-height: 50vw;
     background-position: center;
     background-size: cover;
 }
@@ -304,9 +304,9 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     padding-right: -1.5vh;
 }
 
-.darknosa {
+/* .darknosa {
     height: 44px;
-}
+} */
 
 .background-other-color {
     background-color: #2F1047;
@@ -369,5 +369,11 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     left: -20px;
 }
 .z-height{
-    min-height: 80px;
+    min-height: 70px;
+}
+.divAccordions h1 {
+    color: white;
+}
+.c-height{
+    max-height: 30vh;
 }
