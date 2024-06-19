@@ -20,7 +20,7 @@ body {
     background-color: #222222;
 }
 
-.podcast{
+.podcast {
     box-shadow: 4px 4px 20px #00000066;
 }
 
@@ -34,6 +34,27 @@ body {
 
 .background-green {
     background-color: #60fc6d;
+}
+.background-lilac {
+    background-color: #8a60fc;
+}
+.background-rose {
+    background-color: #fc609c;
+}
+.background-blue {
+    background-color: #609cfc;
+}
+.background-yellow {
+    background-color: #fcf460;
+}
+.background-orange {
+    background-color: #fc9a60;
+}
+.background-purple {
+    background-color: #9a60fc;
+}
+.background-red {
+    background-color: #fc6060;
 }
 
 .no-padding {
@@ -64,6 +85,15 @@ body {
     transform: skew(20deg);
 }
 
+.no-decor{
+    text-decoration: none;
+    
+}
+.no-decor:hover{
+    text-decoration: underline;
+    
+}
+
 .w-100 {
     width: 100%;
 }
@@ -75,6 +105,7 @@ body {
 .w-90 {
     width: 90%;
 }
+
 .w-80 {
     width: 80%;
 }
@@ -122,8 +153,8 @@ body {
 }
 
 .chao {
-    position: fixed;
-    bottom: -3.5vh;
+    /* position: fixed;
+    bottom: -3.5vh; */
     width: 100vw;
 }
 
@@ -165,7 +196,7 @@ body {
 
 .signup-pannel {
     width: 35vw;
-    height: 70vh;
+    height: 73vh;
     background-color: #00000088;
     box-shadow: 4px 4px 20px #00000066;
 }
@@ -247,25 +278,42 @@ body {
 .marginCard {
     margin: 0 auto;
 }
+
 /* Podcast */
 
-.gradient-header{
-    background-image: linear-gradient(to bottom,#672599, #391455);
+.gradient-header {
+    background-image: linear-gradient(to bottom, #672599, #391455);
     /* height: 10vh; */
 }
 
-.center{
+.center {
     margin: 0 auto;
 }
 
-.podcast-name{
+.podcast-name {
     font-size: 18px;
 }
-.podcast-creator{
+
+.podcast-creator {
     font-size: 13px;
     color: #868686;
 }
 
-.podcast-gradient{
-    background-image: linear-gradient(to bottom,#FFFFFF00, #1c092b);
+.podcast-gradient {
+    background-image: linear-gradient(to bottom, #FFFFFF00, #1c092b);
+}
+
+/* Spinner CSS */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    color: #fff;
+    /* font-size: 1.5rem; */
 }

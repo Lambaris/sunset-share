@@ -14,7 +14,7 @@
 
 <body>
     <main class="bg">
-        <div class="d-none d-lg-flex loginBG align-items-center justify-content-center">
+        <div class="d-none d-xl-flex loginBG align-items-center justify-content-center">
             <div class="login-pannelBG d-flex align-items-center justify-content-center ">
                 <div class="signup-pannel container border border-white roundeder">
 
@@ -39,7 +39,13 @@
                             <input type="date" placeholder="Data de nascimento" class="form-control form mt-2">
                             <input type="password" placeholder="Senha" class="form-control form mt-4">
                             <input type="password" placeholder="Confirmar Senha"
+                            
                                 class="form-control form mt-2 alert alert-danger">
+                                <div id="passwordHelpBlock" class="form-text text-light">
+                                    Sua senha deve ter 8-20 caracteres, conter números e letras e não deve conter espaços, caracteres especiais ou emojis.
+                                </div>
+                                <input type="checkbox" id="creator" name="creator" value="Creator" class="my-2">
+                                <label for="creator" class="text-light fw-light"> Conta de Criador?</label>
                             <div class="row pt-3 d-flex">
 
                                 <div class="col-6">
@@ -65,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex d-lg-none loginBG container align-items-center justify-content-center">
+        <div class="d-flex d-xl-none loginBG container align-items-center justify-content-center">
             <div class="d-block">
                 <div class="w-100 d-flex justify-content-center blur align-items-center">
                     <div class="d-flex justify-content-center align-items-center pt-3 p-2">
@@ -88,6 +94,11 @@
                         <input type="password" placeholder="Senha" class="form-control form mt-4">
                         <input type="password" placeholder="Confirmar Senha"
                             class="form-control form mt-2 alert alert-danger">
+                            <input type="checkbox" id="creator" name="creator" value="Creator" class="my-2">
+                                <label for="creator" class="text-light fw-light"> Conta de Criador?</label>
+                        <div id="passwordHelpBlock" class="form-text text-light">
+                            Sua senha deve ter 8-20 caracteres, conter números e letras e não deve conter espaços, caracteres especiais ou emojis.
+                        </div>
                         <div class="row pt-3 d-flex">
                             <div class="col-6 offset-6">
                                 <div class="d-flex justify-content-end">
@@ -127,6 +138,6 @@
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
-  </body>
-  
-  </html>
+</body>
+
+</html>

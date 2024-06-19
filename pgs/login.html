@@ -34,12 +34,14 @@
                             <div class="row pt-3 d-flex">
 
                                 <div class="col-8">
-                                    <p class="text-white fs-6">Não têm conta ainda?<a class="text" href="cadastrar.html">Cadastre-se</a>
+                                    <p class="text-white fs-6">Não têm conta ainda?<a class="text"
+                                            href="cadastrar.html">Cadastre-se</a>
                                         agora!</p>
                                 </div>
                                 <div class="col-4">
                                     <div class="d-flex justify-content-end">
-                                        <button class="btn btn-primary">Login</button>
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop">Login</button>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +54,7 @@
                                 <p class="no-margin m-1">Retornar ao Início <i class="bi bi-arrow-90deg-left"></i>
                                 </p>
                             </button>
-                            
+
                         </a>
                     </div>
                 </div>
@@ -78,12 +80,13 @@
                             </div>
                             <div class="col-6">
                                 <div class="d-flex justify-content-end">
-                                    <button class="btn btn-primary">Login</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">Login</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="d-flex justify-content-center mt-4">
                     <a href="../index.html" class="border border-white rounded">
@@ -111,8 +114,69 @@
 
         </div>
     </main>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-  
-  </html>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content bg-dark-subtle">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Ops, encontramos um erro</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Tente verificar:</h3>
+                    <p>
+                        <strong>Credenciais Incorretas: </strong>
+                        <br>
+                        <strong>Usuário ou Senha Incorretos:</strong> O problema mais comum é a digitação
+                        incorreta do nome de usuário ou senha. Certifique-se de que está digitando as
+                        credenciais corretas, verificando a sensibilidade a maiúsculas e minúsculas.
+                        <br>
+                        <strong>Esqueci Minha Senha:</strong> Se você esqueceu sua senha, utilize a opção de
+                        recuperação de senha para redefinir sua senha.
+                        <br>
+                        <br>
+                        <strong>Conta Bloqueada ou Suspensa:</strong>
+                        <br>
+
+
+                        <strong>Conta Bloqueada:</strong> Muitas tentativas de login mal-sucedidas podem
+                        levar ao bloqueio temporário da conta por motivos de segurança.
+                        <br>
+                        <strong>Conta Suspensa:</strong> Sua conta pode ter sido suspensa devido a violações
+                        dos termos de serviço ou atividades suspeitas.
+                        <br>
+                        <br>
+                        <strong>Problemas de Rede:</strong>
+                        <br>
+                        <strong>Conexão de Internet:</strong> Verifique se você está conectado à internet.
+                        Problemas de conexão podem impedir a comunicação com o servidor de autenticação.
+                        <br>
+                        <strong>Problemas no Servidor:</strong> O servidor de login pode estar fora do ar ou
+                        enfrentando problemas técnicos.
+                        <br>
+                        <br>
+                        <strong>Erros de Configuração da Conta:</strong>
+                        <br>
+                        <strong>Conta Não Verificada:</strong> Algumas plataformas exigem que você verifique
+                        sua conta através de um e-mail de confirmação. Verifique se você recebeu um e-mail
+                        de verificação e siga as instruções.
+                        <br>
+                        <strong>Dados Desatualizados:</strong> Se os dados da sua conta estiverem
+                        desatualizados, como um e-mail antigo ou um número de telefone desativado, isso pode
+                        causar problemas de login.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">fechar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
