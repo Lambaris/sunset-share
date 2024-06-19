@@ -74,7 +74,7 @@ body {
     width: 40vw;
     min-height: 10vh;
     transform: skew(-20deg) translate(40px);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .gradient {
@@ -180,6 +180,24 @@ body {
 
 .car-3 {
     background-image: url(../imgs/3.png);
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+.car-4 {
+    background-image: url(../imgs/carousel-img/disco.jpg);
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+.car-5 {
+    background-image: url(../imgs/carousel-img/moça-fone.jpg);
+    min-height: 75vh;
+    background-position: top;
+    background-size: cover;
+}
+.car-6 {
+    background-image: url(../imgs/carousel-img/painel-som.jpg);
     min-height: 75vh;
     background-position: center;
     background-size: cover;
@@ -349,8 +367,13 @@ body {
     color: inherit;
 }
 .z-height{
-    min-height: 50px;
+    min-height: 55px;
 }
-c-height{
-    max-height: 600px;
+.title-2{
+    border-bottom: 3.5px solid #818FB4;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+.alinhar{
+    padding-left: 15vh;
 }

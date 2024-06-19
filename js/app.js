@@ -11,10 +11,10 @@ document.getElementById('icon2').addEventListener('click', function (evitarEvent
     document.getElementById('icon2').style.display = 'none';
     document.getElementById('icon1').style.display = 'inline';
 });
-let btnProf = document.getElementById('btnLogin').addEventListener('click', function(){
-    window.location.href = "profile.html"
+// document.getElementById('btnLogin').addEventListener('click', function(window){
+//     window.location.href = "profile.html"
 
-});
+// });
 
 const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
