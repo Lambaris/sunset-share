@@ -35,24 +35,31 @@ body {
 .background-green {
     background-color: #60fc6d;
 }
+
 .background-lilac {
     background-color: #8a60fc;
 }
+
 .background-rose {
     background-color: #fc609c;
 }
+
 .background-blue {
     background-color: #609cfc;
 }
+
 .background-yellow {
     background-color: #fcf460;
 }
+
 .background-orange {
     background-color: #fc9a60;
 }
+
 .background-purple {
     background-color: #9a60fc;
 }
+
 .background-red {
     background-color: #fc6060;
 }
@@ -77,6 +84,7 @@ body {
     overflow-x: hidden;
 }
 
+
 .gradient {
     background-image: linear-gradient(to right, #FF5757, #8C52FF);
 }
@@ -85,13 +93,14 @@ body {
     transform: skew(20deg);
 }
 
-.no-decor{
+.no-decor {
     text-decoration: none;
-    
+
 }
-.no-decor:hover{
+
+.no-decor:hover {
     text-decoration: underline;
-    
+
 }
 
 .w-100 {
@@ -226,6 +235,14 @@ body {
     background-size: cover;
     background-position: center;
 }
+.gif {
+    /* height: 100vh; */
+    width: 100vw;
+    background-image: url(../imgs/another_gif.gif);
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(4px); */
+}
 
 .border-right {
     width: 50%;
@@ -316,4 +333,13 @@ body {
     height: 50%;
     color: #fff;
     /* font-size: 1.5rem; */
+}
+
+.aboutbg {
+    position: absolute;
+    background-image: url(../imgs/background.png);
+    background-size: cover;
+    width: 110vw;
+    filter: blur(10px);
+    left: -20px;
 }
