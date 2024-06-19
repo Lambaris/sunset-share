@@ -134,14 +134,17 @@ body {
     height: 60vh;
     background-image: linear-gradient(to bottom right, #762efcAA, #e2d5faAA);
     background-color: #00000088;
-    border-radius: 30px;
     box-shadow: 4px 4px 20px #00000066;
+}
+
+.roundeder{
+    border-radius: 30px;
 }
 
 .login-pannelBG{
     height: 100vh;
     width: 50vw;
-    background-color: #00000044;
+    background-color: #00000066;
     box-shadow: 4px 4px 20px #000000BB;
 
 }
@@ -149,7 +152,8 @@ body {
 .loginBG{
     height: 100vh;
     width: 100vw;
-    background-color: #2F1047;
+    background-image: url(../imgs/gif.gif);
+    background-size: cover;
 }
 
 .border-right{
@@ -157,5 +161,15 @@ body {
 }
 
 .form{
-    
+    height: 6vh;
+}
+
+.line{
+    border-bottom: 1px solid aliceblue;
+}
+
+.bg{
+    background-image: url(../imgs/bg.png);
+    background-position: center;
+    background-size: cover;
 }
