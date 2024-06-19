@@ -153,8 +153,8 @@ body {
 }
 
 .chao {
-    /* position: fixed;
-    bottom: -3.5vh; */
+    position: fixed;
+    bottom: -3.5vh;
     width: 100vw;
 }
 
@@ -316,4 +316,41 @@ body {
     height: 50%;
     color: #fff;
     /* font-size: 1.5rem; */
+}
+.grey-ish {
+    background-color: #0e0e0e;
+}
+.background-greeni {
+    background-color:#8E7AB5 ;
+}
+.redi{
+    color: #B784B7;
+}
+.background-blue{
+    background-color: #E493B3;
+}
+.background-bluei{
+    background-color: #EEA5A6 ;
+}
+.darkinosa {
+    text-decoration: none;
+}
+.hide{
+    display: none;
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+}
+.music:hover .hide{
+    display: block;
+}
+
+.no-decoration{
+    color: inherit;
+}
+.z-height{
+    min-height: 50px;
+}
+c-height{
+    max-height: 600px;
 }
