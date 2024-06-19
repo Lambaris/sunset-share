@@ -20,6 +20,10 @@ body {
     background-color: #222222;
 }
 
+.podcast{
+    box-shadow: 4px 4px 20px #00000066;
+}
+
 .rounded {
     border-radius: 10px;
 }
@@ -70,6 +74,9 @@ body {
 
 .w-90 {
     width: 90%;
+}
+.w-80 {
+    width: 80%;
 }
 
 .h-95 {
@@ -239,4 +246,26 @@ body {
 
 .marginCard {
     margin: 0 auto;
+}
+/* Podcast */
+
+.gradient-header{
+    background-image: linear-gradient(to bottom,#672599, #391455);
+    /* height: 10vh; */
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.podcast-name{
+    font-size: 18px;
+}
+.podcast-creator{
+    font-size: 13px;
+    color: #868686;
+}
+
+.podcast-gradient{
+    background-image: linear-gradient(to bottom,#FFFFFF00, #1c092b);
 }
