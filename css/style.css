@@ -163,11 +163,11 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     top: 80px;
 }
 
-/* .chao {
+.chao {
     position: fixed;
     bottom: -3.5vh;
     width: 100vw;
-} */
+}
 
 .music {
     height: 20vh;
@@ -362,4 +362,7 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     width: 110vw;
     filter: blur(10px);
     left: -20px;
+}
+z-height{
+    min-height: 55px;
 }
