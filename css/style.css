@@ -18,6 +18,10 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     background-color: #222222;
 }
 
+.footer-bg{
+    background-image: linear-gradient(to bottom, #000000, #161616);
+}
+
 .podcast {
     box-shadow: 4px 4px 20px #00000066;
 }
@@ -159,11 +163,11 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     top: 80px;
 }
 
-.chao {
+/* .chao {
     position: fixed;
     bottom: -3.5vh;
     width: 100vw;
-}
+} */
 
 .music {
     height: 20vh;

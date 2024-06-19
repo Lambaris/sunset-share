@@ -23,7 +23,4 @@ myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
 
-let nome = document.getElementById("nome")
-let senha = document.getElementById("senha")
-let nomeR = document.getElementById("nome")
-let senhaR = document.getElementById("senha")
+// 1 == 1? console.log("True"):console.log("False");
