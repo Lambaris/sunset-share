@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {
     overflow-x: hidden;
-  }
+}
 
 .text-white {
     color: white;
@@ -21,14 +21,15 @@ body {
 
 }
 
-.rounded{
+.rounded {
     border-radius: 10px;
 }
 
 .background {
     background-color: #000000;
 }
-.background-green{
+
+.background-green {
     background-color: #60fc6d;
 }
 
@@ -50,6 +51,7 @@ body {
     min-height: 10vh;
     transform: skew(-20deg) translate(40px);
     /* background-image: linear-gradient(to right, red , yellow); */
+    overflow-x: hidden;
 }
 
 .gradient {
@@ -116,59 +118,98 @@ body {
 .sunset {
     top: 80px
 }
-.chao{
+
+.chao {
     position: fixed;
     bottom: -3.5vh;
     width: 100vw;
 
 }
 
-.music{
+.music {
     height: 20vh;
+}
+
+/* ----Carrousel */
+
+.car-1 {
+    background-image: url(../imgs/1.png);
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.car-2 {
+    background-image: url(../imgs/2.png);
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.car-3 {
+    background-image: url(../imgs/3.png);
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
 }
 
 /* ----Login------ */
 
-.login-pannel{
+.login-pannel {
     width: 25vw;
     height: 60vh;
-    background-image: linear-gradient(to bottom right, #762efcAA, #e2d5faAA);
+    background-color: #00000088;
+    box-shadow: 4px 4px 20px #00000066;
+}
+.signup-pannel {
+    width: 35vw;
+    height: 70vh;
     background-color: #00000088;
     box-shadow: 4px 4px 20px #00000066;
 }
 
-.roundeder{
+.roundeder {
     border-radius: 30px;
 }
 
-.login-pannelBG{
+.login-pannelBG {
     height: 100vh;
     width: 50vw;
     background-color: #00000066;
     box-shadow: 4px 4px 20px #000000BB;
 
+    backdrop-filter: blur(7px);
+
 }
 
-.loginBG{
+.blur{
+    background-color: #00000066;
+    box-shadow: 4px 4px 20px #000000BB;
+
+    backdrop-filter: blur(7px);
+}
+
+.loginBG {
     height: 100vh;
     width: 100vw;
     background-image: url(../imgs/gif.gif);
     background-size: cover;
+    background-position: center;
 }
 
-.border-right{
+.border-right {
     width: 50%;
 }
 
-.form{
+.form {
     height: 6vh;
 }
 
-.line{
+.line {
     border-bottom: 1px solid aliceblue;
 }
 
-.bg{
+.bg {
     background-image: url(../imgs/bg.png);
     background-position: center;
     background-size: cover;
