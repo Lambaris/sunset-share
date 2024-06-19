@@ -162,8 +162,8 @@ body {
 }
 
 .chao {
-    /* position: fixed;
-    bottom: -3.5vh; */
+    position: fixed;
+    bottom: -3.5vh;
     width: 100vw;
 }
 
