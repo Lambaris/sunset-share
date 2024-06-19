@@ -4,9 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-body {
-    overflow-x: hidden;
-}
+html, body {  overflow-x: hidden !important;  width: 100%;  }
 
 .text-white {
     color: white;
