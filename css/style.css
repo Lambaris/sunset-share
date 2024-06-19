@@ -340,6 +340,11 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     background-image: linear-gradient(to bottom, #FFFFFF00, #1c092b);
 }
 
+.color{
+    background-color: #1c092b;
+    min-height: 15vh;
+}
+
 /* Spinner CSS */
 .spinner-border {
     width: 3rem;
