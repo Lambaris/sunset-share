@@ -363,6 +363,6 @@ html, body {  overflow-x: hidden !important;  width: 100%;  }
     filter: blur(10px);
     left: -20px;
 }
-z-height{
-    min-height: 55px;
+.z-height{
+    min-height: 80px;
 }
